@@ -12,8 +12,17 @@ public class Robbery {
 		int[] sizes,
 		int[] worths
 	) {
-		// fill in here, change the return
-			return 0;
+		// This is the base case at the time
+        //there is no more items to compare
+        if (capacity <= 0 ) {
+        return 0;
+        }
+        else {
+        	  // size of  item of the arrays
+        	 int number = sizes.length;
+        
+        	if( number== 0) 
+            return 0;
 	}
 
 	public int maximizeRobWorthBottomUp(
